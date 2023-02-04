@@ -1,4 +1,4 @@
-
+package lesson2
 class StructuredProgramming {
 }
 
@@ -39,7 +39,8 @@ fun main(args: Array<String>) {
 
         if (player1Hand == RockPaperScissorsType.ROCK && player2Hand == RockPaperScissorsType.SCISSORS
             || player1Hand == RockPaperScissorsType.SCISSORS && player2Hand == RockPaperScissorsType.PAPER
-            || player1Hand == RockPaperScissorsType.PAPER && player2Hand == RockPaperScissorsType.ROCK) {
+            || player1Hand == RockPaperScissorsType.PAPER && player2Hand == RockPaperScissorsType.ROCK
+        ) {
             println("${player1Hand.japaneseName} vs. ${player2Hand.japaneseName}")
             println("プレイヤー1が勝ちました!\n")
             player1VictoryCount++
