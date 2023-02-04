@@ -1,6 +1,4 @@
 package lesson2
-class StructuredProgramming {
-}
 
 enum class RockPaperScissorsType(val typeNumber: Int, val japaneseName: String) {
     ROCK(1, "グー"),
