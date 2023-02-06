@@ -1,6 +1,7 @@
 package lesson6
 
 class Player(
+    // TODO 書籍の回答では、フィールドに審判役及びテーブルを持たせていた。メソッドの引数に渡すのか、フィールドとして定義するのかどういった判断基準で決めるべきか調べる
     private val name: String,
     private val handCard: HandCard = HandCard(mutableListOf())
 ) {
