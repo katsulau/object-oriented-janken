@@ -13,7 +13,7 @@ open class Card constructor(
         const val CARD_NUM = 13
     }
 
-    fun getSuit(): Int {
+    fun gettSuit(): Int {
         return this.suit
     }
 

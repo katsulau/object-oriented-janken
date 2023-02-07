@@ -1,14 +1,14 @@
 package lesson8
 
-class Joker(
+class Joker constructor(
     suit: Int = 0,
     number: Int = 0
 ): Card(suit, number) {
-    fun setNumber(number: Int) {
+    fun settNumber(number: Int) {
         this.number = number
     }
 
-    fun setSuit(suit: Int) {
+    fun settSuit(suit: Int) {
         this.suit = suit
     }
 
